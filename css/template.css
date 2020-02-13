@@ -1,0 +1,67 @@
+
+body {
+    background-color:#1c1922;
+    color: cornsilk;
+    margin: 0;
+    padding: 0;  
+}
+
+div, section, article, header, footer {
+    box-sizing: border-box;
+} 
+
+img {
+    margin:0;
+    padding:0;
+}
+
+a   {  
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+video::-internal-media-controls-download-button {
+        display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+        overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+        /*width: calc(100% + 30px);  */
+        width: 100%;
+}
+
+#sbslogo {
+    width: 60px;
+    height: 60px;
+}
+
+#headerbar {
+    background-color: rgb(53, 36, 51);
+    height: 60px;
+}
+
+
+.section-page-wrapper {
+    margin: 0 1rem;
+
+
+}
+
+.content {
+
+}
+
+.article {
+    float: left;
+    
+    margin: 0 5px 20px 5px ;
+    width: 25%;
+    height: 300px;
+    background-color: black;
+}
